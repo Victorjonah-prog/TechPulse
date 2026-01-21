@@ -72,3 +72,50 @@ body {
     border-radius: 4px;
     border: 1px solid #ccc;
 }
+
+.section_2 {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
+
+.section_2 h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section_2 p {
+    text-align: center;
+}
+
+.section_2 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section_2 li {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.section_2 li h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.section_2 a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.section_2 a:hover {
+    text-decoration: underline;
+}
