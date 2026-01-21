@@ -43,12 +43,14 @@ body {
     padding: 40px ;    
 }
 #web3 {
-    height: 360px;
+    height: 450px;
     width: 500px;
+    border-radius: 8px;
  }
  #prodfest {
-    height: 360px;
+    height: 450px;
     width: 500px;
+    border-radius: 8px;
  }
  .section1_header {
     font-size: 24px;
