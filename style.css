@@ -142,3 +142,55 @@ footer button{
     cursor: pointer;
     font-weight: bold;
 }
+
+.section_2 {
+    max-width: 1700px;
+    margin: auto;
+    margin-bottom: 35px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
+
+.section_2 h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section_2 p {
+    text-align: center;
+}
+
+.section_2 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.section_2 li {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 6px;
+    width: 47%;
+    height: auto;
+}
+
+.section_2 li h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.section_2 a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.section_2 a:hover {
+    text-decoration: underline;
+}
