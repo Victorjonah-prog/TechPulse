@@ -52,6 +52,14 @@ body {
     cursor: pointer;
     font-weight: bold;
 }
+#button_3{
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: #ffffff; 
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
 
 .img_div {
     display: flex;
@@ -91,10 +99,10 @@ body {
     border: 1px solid #ccc;
 }
 .hero {
-    height: 400px; /* adjust as needed */
+    height: 400px; 
     background-image: url("./img/image\ \(6\).jpg");
-    background-size: cover;      /* fills container */
-    background-position: center; /* centers image */
+    background-size: cover;     
+    background-position: center; 
     background-repeat: no-repeat;
 
     display: flex;
